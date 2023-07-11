@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+
+/*=============== HOME ===============*/
+.home__title {
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.home__description {
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+    width: 635px;
+}
+
+.button {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.home__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.home__image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.home__img {
+    width: 634px;
+}
+
+.home__data {
+    padding-top: 140px;
+}
+
+.home {
+    background: #e554731a;
+}
+
+/*=============== FEATURED ===============*/
+.featured {
+    padding-top: 178px;
+}
+
+.section__title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.section__description {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.featured__cards {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    padding-top: 48px;
+}
+
+.featured__card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 350px;
+    height: 420px;
+    border-radius: 300px 300px 0px 0px;
+    background: #a7216226;
+    margin-bottom: 32px;
+}
+
+.featured__card-img {
+    width: 250px;
+}
+
+.featured__card-2 {
+    background: #0597a026;
+}
+
+.featured__card-3 {
+    background: #477d1126;
+}
+
+.featured__card-title {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+/*=============== DEALS ===============*/
+.deals {
+    background-color: #e554730d;
+    padding: 100px;
+    margin-top: 128px;
+}
+
+.deals__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deals__title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.deals__description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.deals__data {
+    text-align: center;
+}
+
+/*=============== SOCIAL ===============*/
+.social {
+    margin-top: 128px;
+}
+
+.social__cards {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    margin-top: 48px;
+}
+
+.social__card-img {
+    width: 260px;
+}
+
+/*=============== HISTORY ===============*/
+.history {
+    background-color: #e554730d;
+    padding: 100px;
+    margin-top: 128px;
+    text-align: center;
+}
+
+.history__description {
+    width: 700px;
+    margin: 0 auto;
+}
+
+/*=============== JOIN ===============*/
+.join {
+    margin: 128px 0;
+}
+
+.join__container {
+    text-align: center;
+    background: url("./img/latest-bg.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding: 122px;
+}
+
+.join__form {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 48px;
+}
+
+.join__input {
+    padding: 20px 43px;
+    width: 500px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+/*=============== FOOTER ===============*/
+.footer {
+    text-align: center;
+    padding: 128px;
+    background-color: #111010;
+}
+
+.footer__logo {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.footer__description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.footer__copy {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+}
